@@ -64,11 +64,11 @@ Ejemplo de nota guardada:
 ```
 ## Arquitectura
 
-```mermaid 
+```mermaid
 graph LR
-A[Usuario] --> B[Frontend]
-B	--> C[API]
-C	--> D[(Base de datos)]
+    A[Usuario] --> B[Frontend]
+    B --> C[API]
+    C --> D[(Base de datos)]
 ```
 ### Flujo para agregar una nota
 
